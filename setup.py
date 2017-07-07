@@ -9,7 +9,7 @@
 
 from setuptools import setup, find_packages
 
-__version__ = '0.1ev1'
+__version__ = '0.0.1'
 
 setup(
     name='metagen_cli',

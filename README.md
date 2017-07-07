@@ -1,4 +1,4 @@
-﻿# Cosmos ID Metagen
+# Cosmos ID Metagen
 
  Command line interface (CLI) and Python client library for interacting with the CosmosID Metagen API.
 
