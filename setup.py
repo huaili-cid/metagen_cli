@@ -26,7 +26,7 @@ setup(
     keywords='API Client for CosmosID Metagen',
     url='https://www.cosmosid.com/',
     classifiers=[
-        'Environment::Console',
+        'Environment :: Console',
     ],
     entry_points={
         'console_scripts': ['metagen = metagen.cli:main'],
