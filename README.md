@@ -21,13 +21,13 @@ This package provides:
 * a simple CLI for interacting with the CosmosID Metagen that uses the core library;
 
 ## Basic installation
-The CLI with the core Python library may be installed using `pip`.
-* simply run from console `pip install metagen_cli`
+The CLI with the core Python library may be installed using `pip3`.
+* simply run from console `sudo pip3 install metagen_cli`
 
 # Using the Metagen CLI
 
 The CosmosID Metagen CLI supports authentication via Metagen API Key.
-Your API key can be found on the [CosmosID Metagen profile page](https://www-int.cosmosid.com/settings).
+Your API key can be found on the [CosmosID Metagen profile page](https://app.cosmosid.com/settings).
 To automatically authenticate via Metagen API Key you should create credential file `~/.metagen` and store your API Key into it in the following format:
 ```json
 {"api_key": "<your api key string>"}
@@ -76,7 +76,7 @@ metagen upload -f <path to file-1> -f <path to file-2>
 > Note: upload of a big file takes a some time, please be patient
 
 Once file has been uploaded to CosmosID the analyzing process will automatically begin.
-You can check the result of analysis on the page [CosmosID Metagen Samples](https://www-int.cosmosid.com/samples)
+You can check the result of analysis on the page [CosmosID Metagen Samples](https://app.cosmosid.com/samples)
 
 ### Retrieving Analysis Results
 To retrieve analysis results for a specified file in CosmosID simply run `metagen` command with `analysis` subcommand. For example:

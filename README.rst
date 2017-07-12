@@ -30,8 +30,8 @@ for interacting with the CosmosID Metagen that uses the core library;
 Basic installation
 ------------------
 
-The CLI with the core Python library may be installed using ``pip``. \*
-simply run from console ``pip install metagen_cli``
+The CLI with the core Python library may be installed using ``pip3``. \*
+simply run from console ``sudo pip3 install metagen_cli``
 
 Using the Metagen CLI
 =====================
@@ -147,5 +147,5 @@ to create analysis report archive and save it into given local file
 
 metagen reports –id –output /tmp/analysis\_report.zip
 
-.. _CosmosID Metagen Samples: https://www-int.cosmosid.com/samples
-.. _CosmosID Metagen profile page: https://www-int.cosmosid.com/settings
+.. _CosmosID Metagen Samples: https://app.cosmosid.com/samples
+.. _CosmosID Metagen profile page: https://app.cosmosid.com/settings
